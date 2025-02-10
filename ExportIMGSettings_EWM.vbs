@@ -1,5 +1,7 @@
 ﻿Sub ExportIMGSettings_EWM()
 
+'Extraction of EWM IMG settings based on conditions from an excel spreadsheet (with customizing nodes on pop-up screens)
+
 Dim SapGui As Object
 Dim App As SAPFEWSELib.GuiApplication
 Dim Conn As SAPFEWSELib.GuiConnection
