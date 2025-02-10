@@ -49,13 +49,13 @@ If IsObject(SapGui) Then
                 
                 Set guitree = Session.FindById("wnd[0]/usr/cntlTREE_CONTROL_CONTAINER/shellcont/shell")
                 
-                'Get required data from an active sheet
+                'Get required data from an active sheet (should be adapted to a list of IMG nodes added to an active spreadsheet
                 
-                Set Path = ActiveWorkbook.ActiveSheet.Range("A2:A5")
-                Set Position = ActiveWorkbook.ActiveSheet.Range("B2:B5")
-                Set NodeName = ActiveWorkbook.ActiveSheet.Range("C2:C5")
-                Set IDName = ActiveWorkbook.ActiveSheet.Range("D2:D5")
-                Set Directory = ActiveWorkbook.ActiveSheet.Range("E2:E5")
+                Set Path = ActiveWorkbook.ActiveSheet.Range("A6:A9")
+                Set Position = ActiveWorkbook.ActiveSheet.Range("B6:B9")
+                Set NodeName = ActiveWorkbook.ActiveSheet.Range("C6:C9")
+                Set IDName = ActiveWorkbook.ActiveSheet.Range("D6:D9")
+                Set Directory = ActiveWorkbook.ActiveSheet.Range("E6:E9")
                 
                 'Loop over data selected from an active sheet and perform spreadsheet generation
                 
