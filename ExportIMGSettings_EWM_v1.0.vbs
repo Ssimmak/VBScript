@@ -1,4 +1,4 @@
-﻿Sub ExportIMGSettings_EWM()
+Sub ExportIMGSettings_EWM()
 
 'Extraction of EWM IMG settings based on conditions from an excel spreadsheet (with customizing nodes on pop-up screens)
 
